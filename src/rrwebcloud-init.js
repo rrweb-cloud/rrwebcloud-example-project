@@ -1,6 +1,7 @@
 import rrwebCloud from "@rrwebcloud/js-client";
 rrwebCloud.start({
   serverUrl: "https://api.rrwebcloud.com/recordings/{recordingId}/ingest/ws",
+  publicAPIKey: "public-api-key", // <-- please add your public api key here
   blockSelector: ".my-block-class",
   captureAssets: {
     images: true, // capturing the blob image!

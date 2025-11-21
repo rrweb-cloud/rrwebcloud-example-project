@@ -4,7 +4,7 @@
     "": {
       "name": "rrweb-demo",
       "dependencies": {
-        "@rrwebcloud/js-client": "^2.0.0-alpha.20",
+        "@rrwebcloud/js-client": "^2.0.0-alpha.21",
       },
       "devDependencies": {
         "vite": "^7.2.2",
@@ -120,7 +120,7 @@
 
     "@rrweb/utils": ["@rrweb/utils@2.0.0-alpha.18", "", {}, "sha512-qV8azQYo9RuwW4NGRtOiQfTBdHNL1B0Q//uRLMbCSjbaKqJYd88Js17Bdskj65a0Vgp2dwTLPIZ0gK47dfjfaA=="],
 
-    "@rrwebcloud/js-client": ["@rrwebcloud/js-client@2.0.0-alpha.20", "", { "dependencies": { "@rrweb/record": "^2.0.0-alpha.19", "@rrweb/types": "^2.0.0-alpha.19", "@rrweb/utils": "^2.0.0-alpha.19", "rrweb": "^2.0.0-alpha.19", "websocket-ts": "^2.2.1" } }, "sha512-WtYxatC/jQE6tsKu3tdEV4skEHPVULZNTlooAHBBKTagFPQf9+5fiMygdc7+C3J1MlziWMhSnqgUXRzPohWX2w=="],
+    "@rrwebcloud/js-client": ["@rrwebcloud/js-client@2.0.0-alpha.21", "", { "dependencies": { "@rrweb/record": "^2.0.0-alpha.19", "@rrweb/types": "^2.0.0-alpha.19", "@rrweb/utils": "^2.0.0-alpha.19", "rrweb": "^2.0.0-alpha.19", "websocket-ts": "^2.2.1" } }, "sha512-C9zzt73mJYVfRauFYVIWLymxjwQrm6mU42v0Rf37axEqvK8QHJ+UZomD6y6NESWOgnqvUXQ4PAg7/qJ/zfULVQ=="],
 
     "@types/css-font-loading-module": ["@types/css-font-loading-module@0.0.7", "", {}, "sha512-nl09VhutdjINdWyXxHWN/w9zlNCfr60JUqJbd24YXUuCwgeL0TpFSdElCwb6cxfB6ybE19Gjj4g0jsgkXxKv1Q=="],
 

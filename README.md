@@ -34,8 +34,9 @@ This is a simple example project demonstrating how to integrate the [`@rrwebclou
 
 ## Configuration
 
-The rrwebCloud configuration can be found in `src/main.js`. It includes examples of:
+The rrwebCloud configuration can be found in `src/rrwebcloud-init.js`. It includes examples of:
 
+- **IMPORTANT**: You must add your `publicAPIKey` in this file.
 - Setting a custom `serverUrl`
 - Configuring `blockSelector`
 - Managing `captureAssets` settings
