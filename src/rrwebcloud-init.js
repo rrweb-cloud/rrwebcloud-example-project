@@ -1,7 +1,7 @@
 import rrwebCloud from "@rrwebcloud/js-client";
 rrwebCloud.start({
   serverUrl: "https://api.rrwebcloud.com/recordings/{recordingId}/ingest/ws",
-  publicApiKey: "public-api-key", // <-- please add your public api key here
+  publicApiKey: "ak_8VZNB8ESHSPCB8TDG2GSK7K2BS3RXXC1", // <-- please add your public api key here
   blockSelector: ".my-block-class",
   captureAssets: {
     images: true, // capturing the blob image!
@@ -26,3 +26,6 @@ if (recordingId) {
 } else {
   console.log(`recording not possible due to sessionStorage restrictions`);
 }
+
+// for testing:
+window.rrwebCloud = rrwebCloud;
